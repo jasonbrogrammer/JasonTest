@@ -29,7 +29,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+	//Add the drawer controller stuff
+    
+    
+  //  UIViewController * leftDrawer = [[UIViewController alloc] init];
+   
+    
+  //  UIViewController * center = [[UIViewController alloc] init];
+
+    
+  //  UIViewController * rightDrawer = [[UIViewController alloc] init];
+  
+    /*
+    
+    MMDrawerController * drawerController = [[MMDrawerController alloc]
+                                             initWithCenterViewController:center
+                                             leftDrawerViewController:leftDrawer
+                                             rightDrawerViewController:rightDrawer];
+    
+    */
+    
+    
+    
+    
+    // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
