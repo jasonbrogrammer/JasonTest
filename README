@@ -1,0 +1,13 @@
+
+
+Thing to look up and practice:
+@interface --> like a header
+
+-properties
+
+-protocol <--> "interface"
+@required
+
+@optional
+
+@categories
